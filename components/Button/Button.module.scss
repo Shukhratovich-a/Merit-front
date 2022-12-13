@@ -1,11 +1,14 @@
 .button {
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: var(--white);
+
+  border: none;
+
+  font-size: 14px;
   font-weight: 600;
   line-height: 18px;
-  text-transform: uppercase;
-  color: var(--white);
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
 }
 
 .big {
@@ -34,11 +37,13 @@
 
 .arrow {
   display: inline-block;
+
   width: 10px;
   margin-left: 10px;
 
   svg {
     margin: 0 auto;
+
     transition: transform 0.2s ease;
   }
 }

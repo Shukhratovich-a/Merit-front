@@ -9,5 +9,8 @@
     "html": {
       "inline_break": 1
     }
-  }
+  },
+
+  "stylelint.snippet": ["css", "less", "postcss", "scss"],
+  "stylelint.validate": ["css", "less", "postcss", "scss"]
 }
