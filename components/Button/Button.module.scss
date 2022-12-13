@@ -1,0 +1,50 @@
+.button {
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.big {
+  padding: 15px 30px;
+}
+
+.small {
+  padding: 10px 30px;
+}
+
+.red {
+  background-color: var(--red);
+
+  &:hover {
+    background-color: var(--red-hover);
+  }
+}
+
+.black {
+  background-color: var(--black);
+
+  &:hover {
+    background-color: var(--black-hover);
+  }
+}
+
+.arrow {
+  display: inline-block;
+  width: 10px;
+  margin-left: 10px;
+
+  svg {
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+  }
+}
+
+.down {
+  svg {
+    transform: rotate(90deg);
+  }
+}
