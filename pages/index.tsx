@@ -1,6 +1,6 @@
 import { withLayout } from "../layout/Layout";
 
-import { Button, Container, Dat, Heading, Htag } from "../components";
+import { Button, Container, IData, Heading, Htag } from "../components";
 
 const Home = (): JSX.Element => {
   return (
@@ -20,7 +20,7 @@ const Home = (): JSX.Element => {
 
       <Heading title="Popular courses" description="There are many variations of passages of lorem ipsum" />
 
-      <Dat date={new Date()} />
+      <IData date={new Date()} />
     </Container>
   );
 };
