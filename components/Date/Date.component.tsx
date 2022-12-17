@@ -7,7 +7,7 @@ import CalandarIcon from "./calendar.svg";
 
 import styles from "./Date.module.scss";
 
-export const Dat = ({ className, date, ...props }: DateProps): JSX.Element => {
+export const IData = ({ className, date, ...props }: DateProps): JSX.Element => {
   return (
     <div className={cn(styles.date__wrapper, className)} {...props}>
       <CalandarIcon />
