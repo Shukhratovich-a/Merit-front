@@ -1,6 +1,6 @@
 :root {
   --red: #e31e24;
-  --red-hover: #ca1f24;
+  --red-hover: #b81e23;
   --black: #2b2a29;
   --black-hover: #161514;
   --background: #f2f3f4;
@@ -9,7 +9,9 @@
   --card: #e6e6e6;
   --card-dark: #dcdcdc;
   --yellow: #f3cc3c;
+  --overlay: rgba($color: var(--black), $alpha: 80%);
   --shadow: 0 0 20px rgba($color: var(--black), $aplha: 25%);
   --shadow-hover: 0 0 25px rgba($color: var(--black), $aplha: 50%);
+  --border: 2px solid var(--red);
   --font-family: "Raleway", "Arial", sans-serif;
 }

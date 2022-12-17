@@ -1,6 +1,6 @@
 import { withLayout } from "../layout/Layout";
 
-import { Button, Container } from "../components";
+import { Button, Container, Dat, Heading, Htag } from "../components";
 
 const Home = (): JSX.Element => {
   return (
@@ -9,10 +9,18 @@ const Home = (): JSX.Element => {
       <Button apperance="small" color="black">
         Button
       </Button>
-      <Button arrow="right">Button</Button>
+      <Button arrow="right">Browse all courses</Button>
       <Button apperance="small" arrow="right">
         Button
       </Button>
+
+      <Htag tag="h1">Joshqin</Htag>
+      <Htag tag="h2">Joshqin</Htag>
+      <Htag tag="h3">Joshqin</Htag>
+
+      <Heading title="Popular courses" description="There are many variations of passages of lorem ipsum" />
+
+      <Dat date={new Date()} />
     </Container>
   );
 };

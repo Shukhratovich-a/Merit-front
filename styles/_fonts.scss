@@ -1,6 +1,7 @@
+// raleway
+
 @font-face {
-  src:
-    url("../assets/fonts/raleway/raleway-300.woff2") format("woff2"),
+  src: url("../assets/fonts/raleway/raleway-300.woff2") format("woff2"),
     url("../assets/fonts/raleway/raleway-300.woff") format("woff");
 
   font-family: Raleway;
@@ -9,8 +10,7 @@
 }
 
 @font-face {
-  src:
-    url("../assets/fonts/raleway/raleway-400.woff2") format("woff2"),
+  src: url("../assets/fonts/raleway/raleway-400.woff2") format("woff2"),
     url("../assets/fonts/raleway/raleway-400.woff") format("woff");
 
   font-family: Raleway;
@@ -19,8 +19,7 @@
 }
 
 @font-face {
-  src:
-    url("../assets/fonts/raleway/raleway-500.woff2") format("woff2"),
+  src: url("../assets/fonts/raleway/raleway-500.woff2") format("woff2"),
     url("../assets/fonts/raleway/raleway-500.woff") format("woff");
 
   font-family: Raleway;
@@ -29,8 +28,7 @@
 }
 
 @font-face {
-  src:
-    url("../assets/fonts/raleway/raleway-600.woff2") format("woff2"),
+  src: url("../assets/fonts/raleway/raleway-600.woff2") format("woff2"),
     url("../assets/fonts/raleway/raleway-600.woff") format("woff");
 
   font-family: Raleway;
@@ -39,11 +37,57 @@
 }
 
 @font-face {
-  src:
-    url("../assets/fonts/raleway/raleway-700.woff2") format("woff2"),
+  src: url("../assets/fonts/raleway/raleway-700.woff2") format("woff2"),
     url("../assets/fonts/raleway/raleway-700.woff") format("woff");
 
   font-family: Raleway;
+  font-weight: 700;
+  font-style: normal;
+}
+
+// montserrat
+
+@font-face {
+  src: url("../assets/fonts/montserrat/montserrat-300.woff2") format("woff2"),
+    url("../assets/fonts/montserrat/montserrat-300.woff") format("woff");
+
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../assets/fonts/montserrat/montserrat-400.woff2") format("woff2"),
+    url("../assets/fonts/montserrat/montserrat-400.woff") format("woff");
+
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../assets/fonts/montserrat/montserrat-500.woff2") format("woff2"),
+    url("../assets/fonts/montserrat/montserrat-500.woff") format("woff");
+
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../assets/fonts/montserrat/montserrat-600.woff2") format("woff2"),
+    url("../assets/fonts/montserrat/montserrat-600.woff") format("woff");
+
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("../assets/fonts/montserrat/montserrat-700.woff2") format("woff2"),
+    url("../assets/fonts/montserrat/montserrat-700.woff") format("woff");
+
+  font-family: Montserrat;
   font-weight: 700;
   font-style: normal;
 }
