@@ -2,7 +2,7 @@ import cn from "classnames";
 
 import { HeadingProps } from "./Heading.props";
 
-import { Htag } from "../Htag/Htag.component";
+import { Htag, Ptag } from "../";
 
 import HatIcon from "./hat.svg";
 
@@ -15,7 +15,9 @@ export const Heading = ({ title, description, ...props }: HeadingProps): JSX.Ele
         {title}
       </Htag>
 
-      <span className={cn(styles.heading__description)}>{description}</span>
+      <Ptag className={cn(styles.heading__description)} tag="span">
+        {description}
+      </Ptag>
 
       <HatIcon />
     </div>
